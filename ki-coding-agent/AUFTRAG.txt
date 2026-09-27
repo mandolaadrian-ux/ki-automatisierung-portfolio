@@ -1,0 +1,18 @@
+Erweitere den bestehenden E-Mail-Assistenten um zwei neue Klassifizierungen.
+
+1. "reklamation": E-Mails mit Wörtern wie Reklamation, reklamieren, defekt, kaputt,
+   beschädigt, falsch geliefert, fehlerhaft, Mangel, Rücksendung, Umtausch.
+2. "terminanfrage": E-Mails mit Wörtern wie Termin, Besprechung, Treffen, Rückruf,
+   Meeting, Terminvorschlag, Kalender.
+3. Groß-/Kleinschreibung und typische Varianten (z. B. "Reklamationen", "defekte")
+   müssen erkannt werden.
+4. Reihenfolge: Eine vollständige Angebotsanfrage (Kunde, Produkt, Menge) bleibt
+   "angebotsanfrage". Sonst gilt: reklamation vor terminanfrage vor sonstiges.
+5. Reklamationen bekommen mindestens Priorität "mittel", mit verständlicher Begründung.
+   Dringende Wörter führen weiterhin zu "hoch".
+6. Alle bisherigen Funktionen, Datenfelder und Klassifizierungen bleiben erhalten.
+   Leere oder ungewöhnliche Eingaben dürfen keinen Absturz verursachen.
+7. Vorhandene Testdateien dürfen nicht verändert werden. Neue Tests in einer neuen Datei.
+8. Nur künstliche Testdaten, kein Netzwerk, keine echten Postfächer.
+
+Erstelle mindestens 10 neue Unit-Tests für diese Erweiterung.

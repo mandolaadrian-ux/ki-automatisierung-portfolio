@@ -1,0 +1,12 @@
+# Geheimnisse - NIEMALS hochladen
+token.json
+token_outlook.json
+client_secret*.json
+API_KEY.txt
+CLIENT_ID.txt
+*.env
+# Laufzeitdaten
+agent_state*/
+AGENT_LOG.txt
+BERICHT.txt
+__pycache__/
